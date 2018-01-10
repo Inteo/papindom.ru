@@ -733,7 +733,7 @@ h1, h2, h3, h4, h5, h6,
     height: 10px;
     margin: 0 auto 30px;
     border: none;
-    background: url("../../images/patterns/1.png"); }
+    background: url("../images/patterns/1.png"); }
 
 h1, .h1 {
   font-size: 2.5rem; }
@@ -8959,8 +8959,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 @font-face {
   font-family: 'ficon';
-  src: url("../../fonts/ficon.eot?wz44hr");
-  src: url("../../fonts/ficon.eot?wz44hr#iefix") format("embedded-opentype"), url("../../fonts/ficon.ttf?wz44hr") format("truetype"), url("../../fonts/ficon.woff?wz44hr") format("woff"), url("../../fonts/ficon.svg?wz44hr#ficon") format("svg");
+  src: url("../fonts/ficon.eot?wz44hr");
+  src: url("../fonts/ficon.eot?wz44hr#iefix") format("embedded-opentype"), url("../fonts/ficon.ttf?wz44hr") format("truetype"), url("../fonts/ficon.woff?wz44hr") format("woff"), url("../fonts/ficon.svg?wz44hr#ficon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -9049,7 +9049,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   height: 14px;
   line-height: 14px;
   vertical-align: middle;
-  background-image: url(../../images/sprites.png);
+  background-image: url(../images/sprites.png);
   background-repeat: no-repeat; }
 
 .icon-homes {
@@ -9081,11 +9081,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     background: #4caf50; }
     @media (min-width: 768px) {
       .section_green {
-        background: url(../../images/background.jpg) center top no-repeat; } }
+        background: url(../images/background.jpg) center top no-repeat; } }
     .section_green h2 {
       color: #fff; }
       .section_green h2 + hr {
-        background: url(../../images/patterns/2.png); }
+        background: url(../images/patterns/2.png); }
 
 .social li {
   display: inline-block;
@@ -9100,7 +9100,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .header__info {
   color: #fff;
-  background: url("../../images/background.jpg") center 0 no-repeat;
+  background: url("../images/background.jpg") center 0 no-repeat;
   padding: 20px 0 40px; }
   @media (min-width: 768px) {
     .header__info {
@@ -9205,7 +9205,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   margin: -33px auto 0;
   width: 124px;
   height: 126px;
-  background: url("../../images/logo.jpg") no-repeat;
+  background: url("../images/logo.jpg") no-repeat;
   -moz-background-size: cover;
        background-size: cover;
   -webkit-border-radius: 50%;
