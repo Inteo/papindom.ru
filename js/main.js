@@ -50,3 +50,12 @@ $('.promo .flexslider').flexslider({
 	animation: "slide",
 	controlNav: false
 });
+
+$(".switcher__btn").click(function() {
+	$(this).closest(".switcher__control").find(".switcher__btn").removeClass("active");
+	$(this).addClass("active");
+	var holder = $(this).closest(".switcher").find(".switcher__holder");
+	holder.removeClass("active");
+	holder.filter('[data-switch-hold=' + $(this).data("switch-btn") + ']').addClass("active");
+	return false;
+});
