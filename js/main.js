@@ -59,3 +59,35 @@ $(".switcher__btn").click(function() {
 	holder.filter('[data-switch-hold=' + $(this).data("switch-btn") + ']').addClass("active");
 	return false;
 });
+$(function() {
+	$(".modal-inline").fancybox({
+		type: 'inline',
+		fixed: true,
+		width: '100%',
+		autoSize: false,
+		scrolling: false,
+		helpers: {
+			overlay: {
+				css: {
+					'background': 'rgba(0, 0, 0, 0.4)'
+				}
+			}
+		}
+	});
+	$(".modal-inline-small").fancybox({
+		type: 'inline',
+		fixed: true,
+		width: '100%',
+		height: "auto",
+		maxWidth: 472,
+		autoSize: false,
+		scrolling: false,
+		helpers: {
+			overlay: {
+				css: {
+					'background': 'rgba(0, 0, 0, 0.4)'
+				}
+			}
+		}
+	});
+});
