@@ -9840,7 +9840,7 @@ h1.promo-slider__title {
   background-position: -196px -196px; }
 
 .section {
-  padding: 60px 0 80px; }
+  padding: 60px 0; }
   .section:first-of-type {
     padding-top: 0; }
   .section_dark {
@@ -9867,6 +9867,8 @@ h1.promo-slider__title {
         margin-top: -430px; } }
   .section_unb {
     padding-bottom: 0; }
+  .section_unt {
+    padding-top: 0; }
 
 .marked-list {
   margin-bottom: 30px; }
@@ -10280,6 +10282,9 @@ h1.promo-slider__title {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 50px; }
+  .about .btn {
+    width: 100%;
+    max-width: 260px; }
 
 .features {
   margin-bottom: -30px; }
@@ -10431,14 +10436,22 @@ h1.promo-slider__title {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 30px;
-    line-height: 40px; }
+    line-height: 40px;
+    color: #fff; }
   .spacing__text {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    color: #fff; }
     @media (min-width: 768px) {
       .spacing__text {
         margin-bottom: 0; } }
-  .spacing p {
-    color: #fff; }
+  .spacing .contacts {
+    padding: 30px 0 0 0; }
+    .spacing .contacts p {
+      font-weight: bold; }
+      .spacing .contacts p a {
+        color: #fff; }
+    .spacing .contacts i {
+      color: #fff; }
 
 .contacts {
   position: relative;
@@ -10464,6 +10477,7 @@ h1.promo-slider__title {
       .contacts__content {
         max-width: 570px; } }
   .contacts__item {
+    text-align: left;
     position: relative;
     margin-bottom: 20px; }
     .contacts__item a {
@@ -10475,8 +10489,8 @@ h1.promo-slider__title {
         padding-top: 3px; } }
   .contacts__item i {
     display: block;
-    color: #4caf50;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    color: #4caf50; }
     .contacts__item i.ficon-phone {
       font-size: 29px; }
     .contacts__item i.ficon-mail {
