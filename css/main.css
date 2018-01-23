@@ -9671,7 +9671,8 @@ h1.promo-slider__title {
 .promo-slider__description {
   font-size: 16px;
   line-height: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  min-height: 50px; }
 
 .promo-slider__content_right .promo-slider__description {
   margin: 0 0 0 auto; }
@@ -10252,6 +10253,10 @@ h1.promo-slider__title {
         min-width: 100%;
         min-height: 100%;
         width: auto; } }
+  @media (min-width: 768px) {
+    .about_right .about__img {
+      left: auto;
+      right: 60px; } }
   .about__content {
     padding: 90px 10px;
     text-align: center;
