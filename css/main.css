@@ -10461,7 +10461,7 @@ h1.promo-slider__title {
 .contacts {
   position: relative;
   overflow: hidden;
-  padding: 60px 0 300px;
+  padding: 60px 0 400px;
   -moz-background-size: cover;
        background-size: cover;
   background-position: center; }
@@ -10474,13 +10474,43 @@ h1.promo-slider__title {
     margin-bottom: 40px; }
   .contacts__content {
     background: #fff;
-    padding: 30px 50px; }
+    padding: 30px 50px;
+    width: 100%; }
     @media (min-width: 576px) {
       .contacts__content {
         padding: 60px 100px; } }
     @media (min-width: 768px) {
       .contacts__content {
         max-width: 570px; } }
+  .contacts_full {
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 2px solid #e8e8e8; }
+    @media (min-width: 768px) {
+      .contacts_full {
+        padding: 0; } }
+  .contacts_full .contacts__content {
+    min-height: -webkit-calc(100vh - 215px);
+    min-height: -moz-calc(100vh - 215px);
+    min-height: calc(100vh - 215px);
+    position: relative;
+    z-index: 1;
+    padding: 120px 50px 30px 20px;
+    width: 100%; }
+    @media (min-width: 576px) {
+      .contacts_full .contacts__content {
+        padding: 120px 100px 60px 20px; } }
+    @media (min-width: 992px) {
+      .contacts_full .contacts__content {
+        padding-left: 0; } }
+    .contacts_full .contacts__content:before {
+      content: '';
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: #fff;
+      z-index: -1; }
   .contacts__item {
     text-align: left;
     position: relative;
@@ -10492,6 +10522,9 @@ h1.promo-slider__title {
       .contacts__item {
         padding-left: 65px;
         padding-top: 3px; } }
+    .contacts__item span {
+      display: block;
+      margin-bottom: 5px; }
   .contacts__item i {
     display: block;
     margin-bottom: 5px;
