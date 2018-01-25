@@ -24,7 +24,10 @@ $(function() {
 		fixed: true,
 		width: '100%',
 		autoSize: false,
-		scrolling: false,
+		height: 'auto',
+		afterShow: function afterShow() {
+			$.fancybox.update();
+		},
 		helpers: {
 			overlay: {
 				css: {
